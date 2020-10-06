@@ -50,7 +50,7 @@ def _generate_unique_username_base(txts, regex=None):
         # use this, we already have a proper place for putting e-mail
         # addresses (EmailAddress), so let's not use the full e-mail
         # address and only take the part leading up to the '@'.
-        username = username.split('@')[0]
+        # username = username.split('@')[0]
         username = username.strip()
         username = re.sub(r'\s+', '_', username)
         # Finally, validating base username without database lookups etc.
