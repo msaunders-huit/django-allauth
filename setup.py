@@ -115,13 +115,13 @@ long_description = io.open("README.rst", encoding="utf-8").read()
 version = __import__("allauth").__version__
 
 METADATA = dict(
-    name="django-allauth",
-    version=version,
-    author="Raymond Penners",
-    author_email="raymond.penners@intenct.nl",
-    description="Integrated set of Django applications addressing"
-    " authentication, registration, account management as well as"
-    " 3rd party (social) account authentication.",
+    name='django-allauth',
+    version='%s.1' % version,
+    author='Raymond Penners',
+    author_email='raymond.penners@intenct.nl',
+    description='Integrated set of Django applications addressing'
+    ' authentication, registration, account management as well as'
+    ' 3rd party (social) account authentication.',
     long_description=long_description,
     url="http://github.com/pennersr/django-allauth",
     keywords="django auth account social openid twitter facebook oauth" " registration",
